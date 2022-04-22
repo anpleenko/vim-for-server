@@ -43,11 +43,6 @@ set t_vb=
 set tm=500
 
 
-" show location
-set cursorcolumn
-set cursorline
-
-
 " movement
 set scrolloff=7                 " keep 3 lines when scrolling
 
@@ -132,7 +127,7 @@ endif
 
 " theme
 set background=dark
-colorscheme desert
+colorscheme peachpuff
 
 " set mark column color
 hi! link SignColumn   LineNr
